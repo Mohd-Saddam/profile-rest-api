@@ -25,7 +25,7 @@ SECRET_KEY = '5$q%l+v%_w9ny9!u!n)5*yb*rk#ra0&eou1xl!*@-pb5oy2r*r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -122,4 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL='profiles_api.UserProfile' 
+AUTH_USER_MODEL='profiles_api.UserProfile'
